@@ -10,6 +10,8 @@ getwd()
 
 #OR to get a live version of the Sheet
 #http://blog.revolutionanalytics.com/2009/09/how-to-use-a-google-spreadsheet-as-data-in-r.html
+#Google Sheet link: https://docs.google.com/spreadsheets/d/1qynZShxV4IYW7PwVu6XvVFtNqiSl1S5B4_e1wR4tUks/edit#gid=1295804853
+
 #install.packages('RCurl')
 library(RCurl)
 GoogleSheetscsv <- getURL('https://docs.google.com/spreadsheets/d/1qynZShxV4IYW7PwVu6XvVFtNqiSl1S5B4_e1wR4tUks/pub?gid=1295804853&single=true&output=csv')
